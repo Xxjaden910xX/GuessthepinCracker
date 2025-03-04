@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-for guess in range(1,10000):
+for guess in range(1000,1000):
 
     formatted_guess = f'{guess:04}'
     print(f'attempting pin of {formatted_guess}')
